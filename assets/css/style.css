@@ -63,6 +63,11 @@ h1 {
 	font-weight: bold;
 }
 
+h1:hover {
+	background-color: #ffffff;
+	color: #4aaaa5;
+}
+
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
@@ -94,6 +99,15 @@ h2 {
 	line-height: 80px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4aaaa5;
+	text-decoration: underline;
+}
+
 .social {
 	position: absolute;
 	left: 773px;
@@ -118,14 +132,38 @@ h2 {
 	margin: 0 auto;
 }
 
+#linkedin:hover {
+   -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 #stackoverflow {
 	height: 50px;
 	margin: 0 auto;
 }
 
+#stackoverflow:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
 #github {
 	height: 50px;
 	margin: 0 auto;
+}
+
+#github:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
 }
 
 .projectimg {
